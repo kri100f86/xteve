@@ -26,7 +26,7 @@ docker run -d \
   -v /mnt/user/appdata/xteve/_config:/config:rw \
   -v /tmp/xteve/:/tmp/xteve:rw \
   -v /mnt/user/appdata/tvheadend/data/:/TVH \
-  alturismo/xteve
+  jakosciowo/xteve
 ```
 
 to test the cronjob functions \
