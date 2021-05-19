@@ -1,4 +1,4 @@
-FROM arm64v8/alpine:3.7
+FROM alpine:latest
 RUN apk update
 RUN apk upgrade
 RUN apk add --no-cache ca-certificates
